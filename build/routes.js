@@ -28727,8 +28727,7 @@ export default {
       "/blog/:user": {
         "path": "/blog/:user",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/csdn/blog/csdngeeknews",
         "parameters": {
@@ -41527,7 +41526,8 @@ export default {
       "/gnn/:category?": {
         "path": "/gnn/:category?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
         "view": 0,
         "example": "/gamer/gnn/1",
